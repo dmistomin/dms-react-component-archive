@@ -1,0 +1,10 @@
+{
+  "name": "dms-react-component-archive",
+  "version": "0.1.0",
+  "description": "A personal React component library for experimentation and learning.",
+  "main": "index.js",
+  "repository": "git@github.com:dmistomin/dms-react-component-archive.git",
+  "author": "Dmitriy Istomin <distomin+git@pm.me>",
+  "license": "MIT",
+  "private": false
+}
