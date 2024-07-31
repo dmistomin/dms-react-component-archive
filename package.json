@@ -2,7 +2,12 @@
   "name": "dms-react-component-archive",
   "version": "0.1.0",
   "description": "A personal React component library for experimentation and learning.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": "git@github.com:dmistomin/dms-react-component-archive.git",
   "author": "Dmitriy Istomin <distomin+git@pm.me>",
   "license": "MIT",
@@ -36,6 +41,7 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build": "rollup -c"
   }
 }
