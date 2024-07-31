@@ -9,6 +9,9 @@
   "private": false,
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@storybook/addon-essentials": "^8.2.6",
     "@storybook/addon-interactions": "^8.2.6",
     "@storybook/addon-links": "^8.2.6",
@@ -19,6 +22,11 @@
     "@storybook/react-webpack5": "^8.2.6",
     "@storybook/test": "^8.2.6",
     "@types/react": "^18.3.3",
+    "postcss": "^8.4.40",
+    "rollup": "^4.19.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.2.6",
     "typescript": "^5.5.4"
   },
