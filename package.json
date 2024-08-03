@@ -1,6 +1,6 @@
 {
   "name": "dms-react-component-archive",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A personal React component library for experimentation and learning.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
