@@ -43,5 +43,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "rollup -c"
+  },
+  "dependencies": {
+    "tslib": "^2.6.3"
   }
 }
