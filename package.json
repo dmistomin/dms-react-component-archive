@@ -1,0 +1,50 @@
+{
+  "name": "dms-react-component-archive",
+  "version": "0.1.2",
+  "description": "A personal React component library for experimentation and learning.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "repository": "git@github.com:dmistomin/dms-react-component-archive.git",
+  "author": "Dmitriy Istomin <distomin+git@pm.me>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/addon-onboarding": "^8.2.6",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.4",
+    "@storybook/blocks": "^8.2.6",
+    "@storybook/react": "^8.2.6",
+    "@storybook/react-webpack5": "^8.2.6",
+    "@storybook/test": "^8.2.6",
+    "@types/react": "^18.3.3",
+    "postcss": "^8.4.40",
+    "rollup": "^4.19.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.2.6",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "tslib": "^2.6.3"
+  }
+}
